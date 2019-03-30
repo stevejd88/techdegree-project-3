@@ -28,7 +28,9 @@ li {
   list-style-type: none;
 }
 
-
+textarea {
+  width: 100%;
+}
 
 /* Pseudo-classes ------------------ */
 
@@ -41,4 +43,32 @@ li {
   margin-bottom: 40px;
 }
 
+button {
+  width: 100%;
+  color: red;
+  cursor: pointer;
+}
+
 /* Media Queries -------------------- */
+@media (min-width: 768px) {
+body {
+  max-width:  600px;
+  margin: 0 auto;
+}
+
+.contact-info li {
+  flex-direction: row;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}
