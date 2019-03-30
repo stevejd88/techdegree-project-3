@@ -35,6 +35,11 @@ textarea {
 /* Pseudo-classes ------------------ */
 
 /* Main Styles --------------------- */
+
+h1 {
+  text-transform: uppercase;
+}
+
 li[label] {
     align-self: flex-start;
 }
