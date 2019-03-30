@@ -4,7 +4,8 @@
 /* colors -------------------- */
 
 /* Base Styles -------------------- */
-header {
+header,
+footer {
   text-align: center;
 }
 
@@ -17,15 +18,14 @@ fieldset {
 }
 
 .contact-info ul,
+.newsletter ul,
 .contact-info li {
   display: flex;
   flex-direction: column;
 }
 
-
-
-.newsletter li {
-  display: inline;
+li {
+  list-style-type: none;
 }
 
 
