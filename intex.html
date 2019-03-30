@@ -24,7 +24,7 @@
 
         <legend>Contact Information</legend>
 
-        <ul>
+        <ul class="contact-info">
           <li>
             <label for="name">Full Name</label>
             <input type="text" id="name" name="user_name" placeholder="required">
@@ -107,36 +107,31 @@
           </li>
         </ul>
 
-
-
-
       </fieldset>
+
       <hr>
 
       <fieldset>
 
         <legend>Newsletter</legend>
 
-        <ul>
-          <li>
-            <label>Select the newsletters you would like to recieve</label>
-            <input type="checkbox" id="html" value="newsletter_html" name="user_newsletter"><label for="html">HTML News</label>
-            <input type="checkbox" id="css" value="newsletter_css" name="user_newsletter"><label for="css">CSS News</label>
-            <input type="checkbox" id="javascript" value="newsletter_java" name="user_newsletter"><label for="javascript">Javascript News</label>
-          </li>
-          <li>
-            <label>Newsletter format</label>
-            <input type="radio" id="html-format" value="format_html" name="newsletter_format"><label for="html">HTML</label>
-            <input type="radio" id="plain-text-format" value="format_plaintext" name="newsletter_format"><label for="html">Plain text</label>
-          </li>
-          <li>
-            <label for="">Other topics you&apos;d like to hear about</label>
-            <textarea id="topics "name="user_topics"></textarea>
-          </li>
-          <li>
-            <button type="submit">Sign Up</button>
-          </li>
+
+        <label>Select the newsletters you would like to recieve</label>
+        <ul> 
+          <li><input type="checkbox" id="html" value="newsletter_html" name="user_newsletter"><label for="html">HTML News</label></li>
+          <li><input type="checkbox" id="css" value="newsletter_css" name="user_newsletter"><label for="css">CSS News</label></li>
+          <li><input type="checkbox" id="javascript" value="newsletter_java" name="user_newsletter"><label for="javascript">Javascript News</label></li>
         </ul>
+
+        <label>Newsletter format</label>
+        <input type="radio" id="html-format" value="format_html" name="newsletter_format"><label for="html">HTML</label>
+        <input type="radio" id="plain-text-format" value="format_plaintext" name="newsletter_format"><label for="html">Plain text</label>
+
+        <label for="">Other topics you&apos;d like to hear about</label>
+        <textarea id="topics "name="user_topics"></textarea>
+
+        <button type="submit">Sign Up</button>
+
 
 
 
