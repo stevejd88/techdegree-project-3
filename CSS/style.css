@@ -12,12 +12,15 @@ body {
 ul {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 li {
   display: flex;
   flex-direction: column;
 }
+
+
 
 /* Pseudo-classes ------------------ */
 
