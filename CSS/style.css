@@ -4,9 +4,16 @@
 /* colors -------------------- */
 
 /* Base Styles -------------------- */
+header {
+  text-align: center;
+}
+
 body {
   font-family: 'Merriweather', 'Georgia', serif;
-  text-align: center;
+}
+
+fieldset {
+    border: none;
 }
 
 ul {
@@ -18,7 +25,6 @@ ul {
 li {
   display: flex;
   flex-direction: column;
-  flex: 1;
 }
 
 
@@ -26,6 +32,9 @@ li {
 /* Pseudo-classes ------------------ */
 
 /* Main Styles --------------------- */
+li[label] {
+    align-self: flex-start;
+}
 
 li {
   margin-bottom: 40px;
