@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <title>The Code Review</title>
   </head>
   <body>
@@ -17,10 +18,10 @@
       <h2>Contact Information</h2>
 
       <label for="name">Full Name</label>
-      <input type="text" id="name" name="user_name">
+      <input type="text" id="name" name="user_name" placeholder="required">
 
       <label for="mail">Email Address</label>
-      <input type="email" id="mail" name="user_email">
+      <input type="email" id="mail" name="user_email" placeholder="required">
 
       <label for="phone">Phone Number</label>
       <input type="tel" id="phone" name="user_phone">
@@ -33,6 +34,7 @@
 
       <label for="state">State</label>
       <select id="state" name="user_state">
+        <option value="">Choose State</option>
         <option value="Alabama">AL</option>
         <option value="Alaska">AK</option>
         <option value="Arizona">AZ</option>

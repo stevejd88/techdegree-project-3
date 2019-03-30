@@ -1,0 +1,15 @@
+/* Web Fonts-----------------------*/
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i');
+
+/* colors -------------------- */
+
+/* Base Styles -------------------- */
+body {
+  font-family: 'Merriweather', 'Georgia', serif;
+  text-align: center;
+}
+/* Pseudo-classes ------------------ */
+
+/* Main Styles --------------------- */
+
+/* Media Queries -------------------- */
