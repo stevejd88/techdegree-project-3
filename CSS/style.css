@@ -4,8 +4,11 @@
 /* colors -------------------- */
 /*
 black- #2f3c4a
+label-black- #262639
 white- #f3f2f6
 light-grey- #908e8e
+placeholder-grey- #cccaca
+text-field-grey- #e7e7e7
 grey- #dbdbdb
 dark-blue- #282966
 teal- #39a5a8
@@ -93,6 +96,33 @@ li[label] {
   margin-bottom: 25px;
 }
 
+label {
+  padding-bottom: 10px;
+  color: #262639;
+}
+
+.text-field {
+  border: none;
+  border-radius: 3px;
+  background-color: #e7e7e7;
+  height: 55px;
+}
+
+::-webkit-input-placeholder {
+  color: #cccaca;
+  text-align: right;
+  padding-right: 20px;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+.state-choose {
+
+}
+
+.newsletter {
+  background-color: grey;
+}
 button {
   width: 100%;
   color: red;
