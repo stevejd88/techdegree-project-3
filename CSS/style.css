@@ -5,6 +5,10 @@
 /*
 black- #2f3c4a
 white- #f3f2f6
+light-grey- #908e8e
+grey- #dbdbdb
+dark-blue- #282966
+teal- #39a5a8
 
 
 */
@@ -51,6 +55,18 @@ h1 {
   background-color: #2f3c4a;
   margin: 0;
   padding: 25px 40px;
+}
+
+.intro h2 {
+  color: #2f3c4a;
+  margin: 0;
+  padding-top:  30px;
+}
+
+p {
+  color: #908e8e;
+  font-size: 1.06em;
+  padding: 0 20px 25px;
 }
 
 li[label] {
