@@ -89,8 +89,8 @@ li[label] {
     align-self: flex-start;
 }
 
-li {
-  margin-bottom: 40px;
+.contact-info li {
+  margin-bottom: 25px;
 }
 
 button {

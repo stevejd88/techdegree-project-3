@@ -353,3 +353,7 @@ template {
 ul{
   padding: 0;
 }
+
+li {
+  margin: 0;
+}
