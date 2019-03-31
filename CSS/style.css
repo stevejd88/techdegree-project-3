@@ -87,6 +87,9 @@ hr {
   margin-top: 3px;
 }
 
+.contact-info {
+  color: #2f3c4a;
+}
 
 li[label] {
     align-self: flex-start;
@@ -128,6 +131,12 @@ label {
 .newsletter h2 {
   margin: 0;
   padding-top: 20px;
+  color: #2f3c4a;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 10px;
 }
 
 button {
