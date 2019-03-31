@@ -14,6 +14,10 @@ footer {
   text-align: center;
 }
 
+h1 {
+  font-size: 1.5em;
+}
+
 body {
   font-family: 'Merriweather', 'Georgia', serif;
 }
@@ -46,6 +50,7 @@ h1 {
   color:  #f3f2f6;
   background-color: #2f3c4a;
   margin: 0;
+  padding: 25px 40px;
 }
 
 li[label] {
