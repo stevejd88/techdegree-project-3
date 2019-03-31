@@ -69,6 +69,22 @@ p {
   padding: 0 20px 25px;
 }
 
+form {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.thick {
+  border-top: 4px solid #2f3c4a;
+  margin: 0;
+}
+
+hr {
+  border-top: 2px solid #2f3c4a;
+  margin-top: 3px;
+}
+
+
 li[label] {
     align-self: flex-start;
 }
