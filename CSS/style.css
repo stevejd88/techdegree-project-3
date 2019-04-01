@@ -126,6 +126,7 @@ label {
 .newsletter {
   background-color: #e7e7e7;
   border-radius: 3px;
+  color: #262639;
 }
 
 .newsletter h2 {
@@ -139,11 +140,19 @@ input[type="radio"] {
   margin-right: 10px;
 }
 
+.newsletter li,
+.news-format {
+  padding-bottom: 15px;
+}
+
+
 button {
   width: 100%;
   color: red;
   cursor: pointer;
 }
+
+
 
 /* Media Queries -------------------- */
 @media (min-width: 768px) {
