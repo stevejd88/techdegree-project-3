@@ -50,6 +50,14 @@ textarea {
 
 /* Pseudo-classes ------------------ */
 
+input:focus,
+textarea:focus {
+  background-color: #39a5a8;
+  opacity: 0.5;
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+
 /* Main Styles --------------------- */
 
 h1 {
