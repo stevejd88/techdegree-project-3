@@ -202,6 +202,7 @@ form h2 {
 }
 
 .contact-info li {
+
   flex-direction: row;
 }
 
@@ -212,6 +213,14 @@ form h2 {
 .contact-info input,
 .contact-info select {
   width: 80%
+}
+
+.zipcode {
+  justify-content: flex-start;
+}
+
+#zip-code {
+  width: 30%;
 }
 
 /*
