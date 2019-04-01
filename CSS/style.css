@@ -119,6 +119,7 @@ label {
   height: 55px;
 }
 
+/*input[placeholder] */
 input[placeholder] {
   color: #cccaca;
   text-align: right;
@@ -180,6 +181,9 @@ h4 {
   color: #908e8e;
 }
 
+select {
+  color: grey;
+}
 
 /* Media Queries -------------------- */
 @media (min-width: 768px) {
@@ -202,6 +206,16 @@ form h2 {
 }
 
 .contact-info label {
+  width: 20%
+}
+
+.contact-info input,
+.contact-info select {
+  width: 80%
+}
+
+/*
+.contact-info label {
   flex-grow: 1;
   flex-basis: 25%;
 }
@@ -213,6 +227,7 @@ form h2 {
   max-width: 400px;
 }
 
+*/
 
 
 
