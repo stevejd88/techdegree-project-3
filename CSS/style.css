@@ -157,7 +157,10 @@ input[type="radio"] {
   margin-right: 10px;
 }
 
-.newsletter li,
+.news-heading {
+  margin-top: 10px;
+}
+
 .news-format {
   padding-bottom: 15px;
 }
