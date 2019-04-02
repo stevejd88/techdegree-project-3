@@ -204,36 +204,38 @@ select {
 /* Media Queries -------------------- */
 @media (min-width: 768px) {
 
-.intro {
-  padding: 30px 0 20px;
-}
+  .intro {
+    padding: 30px 0 20px;
+  }
 
-form {
-  max-width:  600px;
-  margin: 0 auto;
-}
+  form {
+    max-width:  600px;
+    margin: 0 auto;
+  }
 
-form legend {
-  padding-top: 20px;
-}
+  form legend {
+    padding-top: 20px;
+  }
 
-.contact-info li {
-  flex-direction: row;
-}
+  .contact-info li {
+    flex-direction: row;
+  }
 
-.contact-info label {
-  width: 20%
-}
+  .contact-info label {
+    width: 20%
+  }
 
-.contact-info input,
-.contact-info select {
-  width: 80%
-}
+  .contact-info input,
+  .contact-info select {
+    width: 80%
+  }
 
-.zipcode {
-  justify-content: flex-start;
-}
+  .zipcode {
+    justify-content: flex-start;
+  }
 
-#zip-code {
-  width: 30%;
+  #zip-code {
+    width: 30%;
+  }
+
 }
