@@ -237,29 +237,3 @@ form legend {
 #zip-code {
   width: 30%;
 }
-
-
-
-/*
-.contact-info label {
-  flex-grow: 1;
-  flex-basis: 25%;
-}
-
-.contact-info input,
-.contact-info select {
-  flex-grow: 2;
-  flex-basis: 75%;
-  max-width: 400px;
-}
-
-
-
-
-*/
-
-
-
-
-
-}
