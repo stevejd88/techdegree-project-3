@@ -99,6 +99,12 @@ hr {
   color: #2f3c4a;
 }
 
+.contact-info legend {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 20px 0 15px;
+}
+
 li[label] {
     align-self: flex-start;
 }
@@ -138,7 +144,9 @@ input[placeholder] {
   color: #262639;
 }
 
-.newsletter h2 {
+.newsletter legend {
+  font-size: 1.25em;
+  font-weight: bold;
   margin: 0;
   padding-top: 20px;
   color: #2f3c4a;
